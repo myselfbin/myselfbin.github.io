@@ -150,7 +150,7 @@ li i {
 }
 
 #local-search-input {
-    background-color: #000;
+    background-color: rgb(47, 47, 47);
     color: #fff;
     font-family: dos;
     -webkit-text-fill-color: #bbb
@@ -160,7 +160,7 @@ li i {
     scroll: auto;
     overflow: auto;
     max-height: 3in;
-    background-color: #000
+    background-color: rgb(27, 27, 27)
 }
 
 ul.search-result-list {
@@ -172,7 +172,7 @@ a.search-result-title {
 }
 
 p.search-result {
-    color: #555
+    color: rgb(180, 168, 113)
 }
 
 em.search-keyword {
@@ -185,7 +185,7 @@ em.search-keyword {
 }
 
 a {
-    color: #2bbc8a
+    color: #ffe405
 }
 
 a:focus {
@@ -321,16 +321,16 @@ video {
     right: 50px;
     text-decoration: none;
     display: none;
-    background-color: #000
+    background-color: #ffe405
 }
 
 #gotop span {
     display: block;
-    color: #fff
+    color: #020d82
 }
 
 #gotop span:hover {
-    color: #aaa
+    color: #ff2301
 }
 
 #gotop span {
@@ -449,7 +449,7 @@ em{
     font-size: 10pt;
     width: auto;
     padding: 10px;
-    background: #000
+    background: rgb(27, 27, 27)
 }
 
 .toc .toc-title {
@@ -526,8 +526,8 @@ hr {
     -webkit-box-shadow: #000 0 0 0 0;
     box-shadow: #000 0 0 0 0;
     margin: 10px 0 0 10px;
-    outline: #000 none;
-    background: #bbb !important
+    outline: rgb(0, 0, 0) none;
+    background: #877502 !important
 }
 
 .ds-thread {
@@ -580,7 +580,7 @@ figure {
 }
 
 .date {
-    color: #fff;
+    color: #ffffff;
     line-height: 3em;
     text-align: right
 }

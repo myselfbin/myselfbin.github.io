@@ -163,31 +163,21 @@
 	<!--
 -->
 	
+	
 		<section id="comments" class="comments">
-			<style>
-			.comments{margin:30px;padding:10px;background:rgb(0, 0, 0)}
-			@media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#000}}
-			</style>
-			<div id="vcomment" class="comment"></div>
-<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-<script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-var valineConfig = {"enable":true,"appId":"iY0zkPnT4WRzJU4DSWMjJES3-MdYXbMMI","appKey":"TGrANq3Tjpqr4dnCe1SoaF0W","placeholder":"wanna say something?","visitor":false,"avatar":"retro","requiredFields":["nick","mail"],"pageView":false}
-valineConfig.el='#vcomment';
-new Valine(valineConfig);
-    // new Valine({
-    //     el: '#vcomment',
-    //     appId: "",
-    //     appKey: "",
-    //     placeholder: "wanna say something?",
-    //     avatar:"retro",
-    //     visitor: "false",
-    //     requiredFields: "nick,mail".split(','),
-    // });
-</script>
+			<link
+    rel="stylesheet"
+    href="https://unpkg.com/@waline/client@v2/dist/waline.css"
+  />
+  <div id="waline"></div>
+  <script type="module">
+    import { init } from 'https://unpkg.com/@waline/client@v2/dist/waline.mjs';
+    var walineConfig = {"enable":true,"serverURL":"3-two-navy.vercel.app","pageview":false,"lang":"en,zh-cn","dark":true,"requiredMeta":["nick"],"locale":{"placeholder":"u can write down whatever u like here<3"}}
+    walineConfig.el='#waline';
+    init(walineConfig);
+  </script>
 
 		</section>
-	
 	
 	
 	</div> <!-- col-md-9/col-md-12 -->

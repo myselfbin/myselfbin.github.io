@@ -36,7 +36,6 @@
   <link rel="stylesheet" href="/css/prism.css" media="screen" type="text/css">
   <link rel="stylesheet" href="/css/google-fonts.css" media="screen" type="text/css">
 
-
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   
   <script src="/js/jquery-2.0.3.min.js"></script>
@@ -139,7 +138,7 @@
 		 </div> <!-- alert -->
 	  		
 
-	  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="/images/eve.png" alt="如图！请看！" title="eve"></p>
+	  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><img src="/images/eve.png" alt="如图！请看！" title="eve"></p>
 
 	  <div class="article-footer-copyright">
 
@@ -247,8 +246,32 @@
   
   &copy; 2023 Qian's Blog
   
-  🧡 hope u have a nice day. 
+🧡 hope u have a nice day. 
 </p>
+<br>
+    <i class="ri-time-line"></i>
+    <span id="runtime_span"></span>
+    <script type="text/javascript">			
+      function show_runtime() {
+          window.setTimeout("show_runtime()", 1000);
+          X = new Date("01/19/2023 20:37:56");
+          Y = new Date();
+          T = (Y.getTime() - X.getTime());
+          M = 24 * 60 * 60 * 1000;
+          a = T / M;
+          A = Math.floor(a);
+          b = (a - A) * 24;
+          B = Math.floor(b);
+          c = (b - B) * 60;
+          C = Math.floor((b - B) * 60);
+          D = Math.floor((c - C) * 60);
+          runtime_span.innerHTML = "▶Qian🥳2003.exe HAS BEEN RUNNING FOR: " + A + "ㅤDAYSㅤ" + B + "ㅤHRㅤ" + C + "ㅤMINㅤ" + D + "ㅤSEC◀"
+      }
+    show_runtime();
+  </script>
+
+
+
  </footer>
 </div> <!-- container-narrow -->
   

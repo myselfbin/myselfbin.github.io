@@ -658,8 +658,8 @@ border: 2px solid rgb(255, 255, 255) !important;
     --waline-dark-grey: #999;
   
     /* 主题色 */
-    --waline-theme-color: #27ae60;
-    --waline-active-color: #2ecc71;
+    --waline-theme-color: #ffe405;
+    --waline-active-color: #dd2400;
   
     /* 布局颜色 */
     --waline-color: #e4e4e4;
@@ -679,7 +679,7 @@ border: 2px solid rgb(255, 255, 255) !important;
     --waline-m-avatar-size: calc(var(--waline-avatar-size) * 9 / 13);
   
     /* 徽章 */
-    --waline-badge-color: #3498db;
+    --waline-badge-color: #ffe405;
     --waline-badge-font-size: 0.775em;
   
     /* 信息 */

@@ -16,6 +16,7 @@
     border-radius: 6px
 }
 
+
 body {
     position: relative;
     padding-top: 40px;
@@ -760,4 +761,14 @@ border: 2px solid rgb(255, 255, 255) !important;
     width: 100%;
     height: 100%;
     fill: #ffffff !important;
+}
+
+.after-footer{
+    width:100%;
+    position: absolute;
+    height: 100px;
+    z-index: 1;
+    opacity: 0.37; 
+    bottom: 0;
+    left: 0;
 }

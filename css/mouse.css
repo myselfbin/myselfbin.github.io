@@ -1,0 +1,94 @@
+/*鼠标样式*/
+body,html {
+  cursor: url(/cur/auto.png),
+    auto;
+}
+
+/* a,鼠标移至图片 */
+img {
+  cursor: url(/cur/pic.png),
+    auto;
+}
+ 
+/*鼠标移至a标签*/
+a:hover {
+  cursor: url(/cur/hover.png),
+    auto;
+}
+/*鼠标点击a标签不放开*/
+a:focus{
+    cursor: url(/cur/focus.png),
+    auto;
+}
+/*鼠标点击a标签放开后*/
+a:active{
+    cursor: url(/cur/focus.png), 
+    auto;
+}
+/*鼠标移至i标签*/
+i:hover {
+    cursor: url(/cur/hover.png),
+      auto;
+  }
+/*鼠标点击i标签不放开*/
+i:focus{
+    cursor: url(/cur/focus.png),
+    auto;
+}
+/*鼠标点击i标签放开后*/
+i:active{
+    cursor: url(/cur/focus.png), 
+    auto;
+}
+
+/*输入框*/
+input:hover{
+  cursor: url(/cur/text.png),
+    auto;
+}
+
+/*鼠标移至按钮*/
+button:hover {
+  cursor: url(/cur/hover.png),
+    auto;
+}
+
+/*鼠标移至导航栏的qian2003.exe*/
+.navbar-brand:hover {
+  cursor: url(/cur/page.png),
+    auto;
+}
+
+/*图片右上角的叉叉
+.fancybox-close:hover {
+    background: url(),
+    auto;
+}
+
+.fancybox-close:focus {
+    background: url(),
+    auto;
+}
+
+.fancybox-close:active {
+    background: url(),
+    auto;
+}
+*/
+
+/*以下是找来的模板里暂时用不到的
+
+鼠标移至页脚a标签
+#footer-wrap a:hover {
+  cursor: url(/cur/hf.cur),
+    auto;
+}
+ 
+鼠标移至分页器
+#pagination .page-number:hover {
+  cursor: url(/cur/i.cur),
+    auto;
+}
+ 
+
+*/

@@ -318,8 +318,8 @@ video {
     width: 90px;
     height: 36px;
     position: fixed;
-    bottom: 40px;
-    right: 50px;
+    bottom: 160px;
+    right: 30px;
     text-decoration: none;
     display: none;
     background-color: #ffe405
@@ -772,3 +772,4 @@ border: 2px solid rgb(255, 255, 255) !important;
     bottom: 0;
     left: 0;
 }
+

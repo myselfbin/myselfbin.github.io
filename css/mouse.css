@@ -1,61 +1,61 @@
 /*鼠标样式*/
 body,html {
-  cursor: url(/cur/auto.png),
+  cursor: url(/cur/auto.cur),
     auto;
 }
 
 /* a,鼠标移至图片 */
 img {
-  cursor: url(/cur/pic.png),
+  cursor: url(/cur/pic.cur),
     auto;
 }
  
 /*鼠标移至a标签*/
 a:hover {
-  cursor: url(/cur/hover.png),
+  cursor: url(/cur/hover.cur),
     auto;
 }
 /*鼠标点击a标签不放开*/
 a:focus{
-    cursor: url(/cur/focus.png),
+    cursor: url(/cur/focus.cur),
     auto;
 }
 /*鼠标点击a标签放开后*/
 a:active{
-    cursor: url(/cur/focus.png), 
+    cursor: url(/cur/focus.cur), 
     auto;
 }
 /*鼠标移至i标签*/
 i:hover {
-    cursor: url(/cur/hover.png),
+    cursor: url(/cur/hover.cur),
       auto;
   }
 /*鼠标点击i标签不放开*/
 i:focus{
-    cursor: url(/cur/focus.png),
+    cursor: url(/cur/focus.cur),
     auto;
 }
 /*鼠标点击i标签放开后*/
 i:active{
-    cursor: url(/cur/focus.png), 
+    cursor: url(/cur/focus.cur), 
     auto;
 }
 
 /*输入框*/
 input:hover{
-  cursor: url(/cur/text.png),
+  cursor: url(/cur/text.cur),
     auto;
 }
 
 /*鼠标移至按钮*/
 button:hover {
-  cursor: url(/cur/hover.png),
+  cursor: url(/cur/hover.cur),
     auto;
 }
 
 /*鼠标移至导航栏的qian2003.exe*/
 .navbar-brand:hover {
-  cursor: url(/cur/page.png),
+  cursor: url(/cur/page.cur),
     auto;
 }
 
